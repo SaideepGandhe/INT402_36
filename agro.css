@@ -1,0 +1,122 @@
+﻿body {
+}
+
+h2 {
+    background: green;
+    color: #fff;
+    text-align: left;
+    font-size: 12px;
+    height: 20px;
+    padding: 5px;
+    margin-top: 1px;
+}
+
+#top {
+    border: 0px solid #ccc;
+    width: 752px;
+    height: 283px;
+    margin: 0 auto;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+#menu1 {
+    width: 750px;
+    height: 40px;
+    margin-top: 25px;
+    float: left;
+}
+.menu {
+    margin: 5px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    padding: 10px 20px;
+    outline: none;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    background:darkorange;
+    border: 1px solid #68BE8B;
+}
+
+.menu:hover {
+        background:#ffffff;
+        color:darkorange;
+}
+#sidebar2 {
+    margin-top: 15px;
+    font-weight:bolder;
+    font-size:large;
+    font-family:Bahnschrift;
+    font-stretch:expanded;
+    color: white;
+    height: 286px;
+   
+}
+
+#sidebar1 {
+    margin-top: 15px;
+    float: left;
+    width: 48%;
+    height: 79%;
+    padding: 5px;
+}
+#sidebar6 {
+    margin-top: 15px;
+    font-weight:bolder;
+    font-size:large;
+    font-family: Bahnschrift;
+    font-stretch: expanded;
+    color: white;
+    height: 338px;
+}
+
+#sidebar5 {
+    margin-top: 15px;
+    float: left;
+    width: 46%;
+    height: 115%;
+    padding: 5px;
+}
+#sidebar4 {
+    margin-top: 15px;
+   font-weight:bolder;
+    font-size:large;
+    font-family: Bahnschrift;
+    font-stretch: expanded;
+    color:white;
+    height: 279px;
+}
+
+#sidebar3 {
+    margin-top: 15px;
+    float:left;
+    width: 48%;
+    height: 79%;
+    padding: 5px;
+}
+
+#foot {
+    float: left;
+    border-radius: 2px;
+    background: darkorange;
+    border: 2px solid #68BE8B;
+    width: 93%;
+    height: 111px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: initial;
+    font-size: smaller;
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-left: 27px;
+    margin-right: 10px;
+}
