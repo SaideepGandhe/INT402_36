@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="AgroBasket.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="agro.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            height: 311px;
+        }
+    </style>
+</head>
+<body style="width:800px; height:600px; margin:0px auto 0px auto; background-color:antiquewhite">
+    <form id="form1" runat="server">
+        <div id="top" class="auto-style1">
+            
+        <asp:Image ID="Image1" runat="server" Height=274px Width=749px ImageUrl="~/unnamed.jpg" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="Label1" runat="server" Text="Your Account" ForeColor="DarkOrange" Width="130px"></asp:Label>
+            <br />
+        <div id="menu1">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="Home.aspx" class="menu" >HOME 
+   </a>&nbsp;&nbsp;&nbsp; <a href="Product.aspx" class="menu" >PRODUCTS</a>&nbsp;&nbsp;&nbsp; 
+            <a href="Cart.aspx" class="menu">CART ITEMS</a>&nbsp;&nbsp;&nbsp;
+   <a href="Registration.aspx" class="menu">Sign Up</a>&nbsp;&nbsp;&nbsp;   
+   <a href="Login.aspx" class="menu">Login</a></div>
+ <marquee BEHAVIOR=ALTERNATE scrollamount="2" style="width: 650px; color:darkolivegreen; font-size: 16px;"> Welcome to Agro Products.... </marquee><asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            
+            </div>
+       
+    </form>
+    </body>
+   
+</html>
